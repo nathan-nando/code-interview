@@ -1,3 +1,3 @@
 # code-interview
 
-just workspace to learn code
+just a workspace to learn code
