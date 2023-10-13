@@ -96,11 +96,5 @@ func TestDelete(t *testing.T) {
 	obj.add("value3")
 	obj.add("value4")
 	obj.add("value5")
-	obj.printSet()
-	fmt.Println(obj.getSize())
 	assert.True(t, obj.delete("value4"))
-	fmt.Println(obj.getSize())
-	obj.printSet()
-
-	obj.add("nathan")
 }
