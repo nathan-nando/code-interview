@@ -1,3 +1,1 @@
-# code-interview
-
-just a workspace to learn code
+# Trying to understand DSA :D

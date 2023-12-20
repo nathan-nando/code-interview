@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-func logic(arr []string) [][]string {
+func groupAnagramLogic(arr []string) [][]string {
 	var result [][]string
 	storeAnagram := map[string][]string{}
 
@@ -47,7 +47,7 @@ func (group *groupAnagrams) GroupAnagram1(t *testgroup.T) {
 
 	payload := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
 
-	t.Equal(expected, logic(payload))
+	t.Equal(expected, groupAnagramLogic(payload))
 }
 
 func (group *groupAnagrams) GroupAnagram2(t *testgroup.T) {
@@ -56,7 +56,7 @@ func (group *groupAnagrams) GroupAnagram2(t *testgroup.T) {
 
 	payload := []string{""}
 
-	t.Equal(expected, logic(payload))
+	t.Equal(expected, groupAnagramLogic(payload))
 }
 
 func (group *groupAnagrams) GroupAnagram3(t *testgroup.T) {
@@ -65,5 +65,5 @@ func (group *groupAnagrams) GroupAnagram3(t *testgroup.T) {
 	time.Sleep(3 * time.Second)
 	payload := []string{"a"}
 
-	t.Equal(expected, logic(payload))
+	t.Equal(expected, groupAnagramLogic(payload))
 }
