@@ -40,7 +40,7 @@ func TestGroupAnagram(t *testing.T) {
 	//testgroup.RunInParallel(t, &groupAnagrams{})
 }
 
-func (group *groupAnagrams) GroupAnagram1(t *testgroup.T) {
+func (r *groupAnagrams) GroupAnagram1(t *testgroup.T) {
 
 	var expected [][]string
 	expected = append(expected, []string{"eat", "tea", "tan", "ate", "nat", "bat"})
@@ -50,7 +50,7 @@ func (group *groupAnagrams) GroupAnagram1(t *testgroup.T) {
 	t.Equal(expected, groupAnagramLogic(payload))
 }
 
-func (group *groupAnagrams) GroupAnagram2(t *testgroup.T) {
+func (r *groupAnagrams) GroupAnagram2(t *testgroup.T) {
 	var expected [][]string
 	expected = append(expected, []string{""})
 
@@ -59,7 +59,7 @@ func (group *groupAnagrams) GroupAnagram2(t *testgroup.T) {
 	t.Equal(expected, groupAnagramLogic(payload))
 }
 
-func (group *groupAnagrams) GroupAnagram3(t *testgroup.T) {
+func (r *groupAnagrams) GroupAnagram3(t *testgroup.T) {
 	var expected [][]string
 	expected = append(expected, []string{"a"})
 	time.Sleep(3 * time.Second)
