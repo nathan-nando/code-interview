@@ -22,7 +22,7 @@ How ?
     seems cliche, but its true. 
     to better at something, must invest time.
     deep understand and solve many problem → faster to recognize new problem.
-    HackerRank and LeetCode for now is enough.
+    HackerRank and LeetCode for now are enough.
     
 
 Common Mistake
